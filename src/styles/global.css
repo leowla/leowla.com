@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@font-face {
+	font-family: "Monaspace Radon";
+	src:
+		url("/fonts/monaspace-radon-var.woff2") format("woff2"),
+		url("/fonts/monaspace-radon-var.woff") format("woff");
+	font-weight: 100 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Inter, Arial, sans-serif;
+}
+
+.font-monaspace-radon {
+	font-family:
+		"Monaspace Radon", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+		"Liberation Mono", "Courier New", monospace;
+}

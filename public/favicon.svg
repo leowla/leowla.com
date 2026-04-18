@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+	<rect x="8" y="8" width="112" height="112" rx="22" fill="#fff" />
+	<text
+		x="50%"
+		y="54%"
+		text-anchor="middle"
+		dominant-baseline="middle"
+		font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+		font-size="84"
+		font-weight="700"
+		fill="#000"
+	>
+		L
+	</text>
+</svg>
