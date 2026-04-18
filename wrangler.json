@@ -1,5 +1,5 @@
 {
-	"name": "minimal-personal-site",
+	"name": "leowla-astro-site",
 	"compatibility_date": "2025-10-08",
 	"compatibility_flags": ["nodejs_compat"],
 	"main": "./dist/_worker.js/index.js",
@@ -7,6 +7,16 @@
 		"directory": "./dist",
 		"binding": "ASSETS"
 	},
+	"routes": [
+		{
+			"pattern": "leowla.com/*",
+			"custom_domain": true
+		},
+		{
+			"pattern": "www.leowla.com/*",
+			"custom_domain": true
+		}
+	],
 	"observability": {
 		"enabled": true
 	},
