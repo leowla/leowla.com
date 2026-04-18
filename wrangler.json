@@ -9,11 +9,11 @@
 	},
 	"routes": [
 		{
-			"pattern": "leowla.com/*",
+			"pattern": "leowla.com",
 			"custom_domain": true
 		},
 		{
-			"pattern": "www.leowla.com/*",
+			"pattern": "www.leowla.com",
 			"custom_domain": true
 		}
 	],
