@@ -13,7 +13,7 @@
 	},
 	"dependencies": {
 		"@astrojs/cloudflare": "12.6.12",
-		"astro": "5.16.9",
+		"astro": "5.18.1",
 		"typescript": "5.9.3"
 	},
 	"devDependencies": {
