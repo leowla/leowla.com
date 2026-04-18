@@ -35,6 +35,8 @@
 		"dev": "astro dev",
 		"format": "biome format . --write --files-ignore-unknown=true",
 		"format:check": "biome format . --files-ignore-unknown=true",
+		"lint": "biome lint . --write --files-ignore-unknown=true",
+		"lint:check": "biome lint . --files-ignore-unknown=true",
 		"preview": "astro build && wrangler dev"
 	},
 	"type": "module"

@@ -1,7 +1,15 @@
 {
-	"$schema": "https://biomejs.dev/schemas/2.2.6/schema.json",
+	"$schema": "https://biomejs.dev/schemas/2.4.12/schema.json",
 	"formatter": {
 		"enabled": true
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"nursery": {
+				"useSortedClasses": "error"
+			}
+		}
 	},
 	"assist": {
 		"actions": {
@@ -11,7 +19,13 @@
 		}
 	},
 	"files": {
-		"includes": ["**", "!!**/dist", "!!**/.astro", "!!**/.wrangler"]
+		"includes": [
+			"**",
+			"!!**/dist",
+			"!!**/.astro",
+			"!!**/.wrangler",
+			"!!worker-configuration.d.ts"
+		]
 	},
 	"overrides": [
 		{
