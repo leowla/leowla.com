@@ -5,9 +5,9 @@ This project started from the [Cloudflare Workers Astro blog template v8.1.0](ht
 ## Stack
 
 - Astro
-- Cloudflare Workers adapter
 - Tailwind CSS
 - Biome
+- Cloudflare Workers
 
 ## Development
 
