@@ -1,12 +1,13 @@
 # leowla.com
 
-This project started from the Cloudflare Workers Astro blog template and has been simplified into a one-page personal website.
+This project started from the [Cloudflare Workers Astro blog template v8.1.0](https://github.com/cloudflare/templates/tree/v.8.1.0/astro-blog-starter-template) and has been simplified into a one-page personal website.
 
 ## Stack
 
 - Astro
 - Cloudflare Workers adapter
-- Tailwind CSS (v4 via Vite plugin)
+- Tailwind CSS
+- Biome
 
 ## Development
 
