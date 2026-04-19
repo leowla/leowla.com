@@ -6,6 +6,6 @@ body {
 
 .font-monaspace-radon {
 	font-family:
-		var(--font-monaspace-radon), ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-		"Liberation Mono", "Courier New", monospace;
+		var(--font-monaspace-radon), ui-monospace, SFMono-Regular, Menlo, Monaco,
+		Consolas, "Liberation Mono", "Courier New", monospace;
 }
