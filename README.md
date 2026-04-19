@@ -45,3 +45,9 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro -- --help`         | Get help using the Astro CLI                     |
 | `npm run build && npm run deploy` | Deploy your production site to Cloudflare        |
 | `npm wrangler tail`               | View real-time logs for all Workers              |
+
+## License
+
+The source code for this site is licensed under the MIT License.
+
+All written content, images, and other media are &copy; Leo Wang and may not be reproduced without permission.
