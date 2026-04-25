@@ -14,7 +14,7 @@
 	"dependencies": {
 		"@astrojs/cloudflare": "~13.2.1",
 		"astro": "~6.1.9",
-		"typescript": "5.9.3"
+		"typescript": "6.0.3"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^2.4.13",
