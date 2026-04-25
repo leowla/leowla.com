@@ -12,15 +12,15 @@
 		"publish": true
 	},
 	"dependencies": {
-		"@astrojs/cloudflare": "13.1.10",
-		"astro": "6.1.8",
+		"@astrojs/cloudflare": "~13.2.1",
+		"astro": "~6.1.9",
 		"typescript": "5.9.3"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "^2.4.12",
-		"@tailwindcss/vite": "4.1.17",
-		"tailwindcss": "4.1.17",
-		"wrangler": "4.83.0"
+		"@biomejs/biome": "^2.4.13",
+		"@tailwindcss/vite": "~4.2.4",
+		"tailwindcss": "~4.2.4",
+		"wrangler": "~4.85.0"
 	},
 	"engines": {
 		"node": ">=22"
