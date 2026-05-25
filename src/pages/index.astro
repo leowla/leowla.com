@@ -8,37 +8,41 @@ import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
   </head>
-  <body class="bg-white text-zinc-900 antialiased">
+  <body class="bg-white text-zinc-900 antialiased dark:bg-zinc-950 dark:text-zinc-100">
     <main
       class="mx-auto flex min-h-screen w-full max-w-2xl items-center px-6 py-16"
     >
       <section class="w-full space-y-8">
-        <p class="tracking-wider text-zinc-500">
-          Software Engineering Student @ UoA | Software Engineer
+        <p class="tracking-wider text-zinc-500 dark:text-zinc-400">
+          Software Engineering Student @ University of Auckland | Software Engineer
         </p>
         <h1
-          class="font-monaspace-radon text-4xl font-semibold tracking-tight text-zinc-950 sm:text-5xl"
+          class="font-monaspace-radon text-4xl font-semibold tracking-tight text-zinc-950 sm:text-5xl dark:text-zinc-50"
         >
           Leo Wang
         </h1>
-        <p class="max-w-xl text-base leading-relaxed text-zinc-600">
+        <p class="max-w-xl text-base leading-relaxed text-zinc-600 dark:text-zinc-400">
           Software is my medium for creating profound experiences.
         </p>
         <div class="flex flex-wrap gap-x-6 gap-y-3 text-sm">
           <a
-            class="text-zinc-700 underline decoration-zinc-300 underline-offset-4 hover:text-zinc-950"
+            class="text-zinc-700 underline decoration-zinc-300 underline-offset-4 hover:text-zinc-950 dark:text-zinc-300 dark:decoration-zinc-600 dark:hover:text-zinc-50"
             href="https://github.com/leowla"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             GitHub
           </a>
           <a
-            class="text-zinc-700 underline decoration-zinc-300 underline-offset-4 hover:text-zinc-950"
+            class="text-zinc-700 underline decoration-zinc-300 underline-offset-4 hover:text-zinc-950 dark:text-zinc-300 dark:decoration-zinc-600 dark:hover:text-zinc-50"
             href="https://www.linkedin.com/in/leowla/"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             LinkedIn
           </a>
           <a
-            class="text-zinc-700 underline decoration-zinc-300 underline-offset-4 hover:text-zinc-950"
+            class="text-zinc-700 underline decoration-zinc-300 underline-offset-4 hover:text-zinc-950 dark:text-zinc-300 dark:decoration-zinc-600 dark:hover:text-zinc-50"
             href="mailto:hello@leowla.com"
           >
             Email
