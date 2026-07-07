@@ -3,7 +3,7 @@
 	"description": "Minimal one-page personal website with Astro on Cloudflare Workers.",
 	"dependencies": {
 		"@astrojs/cloudflare": "^13.7.0",
-		"astro": "^6.4.8",
+		"astro": "^7.0.6",
 		"typescript": "^5.9.3"
 	},
 	"devDependencies": {
