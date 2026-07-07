@@ -20,7 +20,7 @@
 		"@astrojs/check": "^0.9.9",
 		"@biomejs/biome": "^2.5.2",
 		"@tailwindcss/vite": "^4.3.2",
-		"@types/node": "^25.9.4",
+		"@types/node": "^26.1.0",
 		"tailwindcss": "^4.3.2",
 		"wrangler": "^4.106.0"
 	},
