@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+@theme inline {
+	--font-monaspace:
+		var(--font-monaspace-radon), ui-monospace, SFMono-Regular, Menlo, Monaco,
+		Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
 body {
 	font-family: "Helvetica Neue", Helvetica, Inter, Arial, sans-serif;
 	animation: fade-in 0.4s ease-out both;
@@ -12,10 +18,4 @@ body {
 	to {
 		opacity: 1;
 	}
-}
-
-.font-monaspace-radon {
-	font-family:
-		var(--font-monaspace-radon), ui-monospace, SFMono-Regular, Menlo, Monaco,
-		Consolas, "Liberation Mono", "Courier New", monospace;
 }
