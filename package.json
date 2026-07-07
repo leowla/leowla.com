@@ -17,6 +17,7 @@
 		"typescript": "^5.9.3"
 	},
 	"devDependencies": {
+		"@astrojs/check": "^0.9.9",
 		"@biomejs/biome": "^2.5.2",
 		"@tailwindcss/vite": "^4.3.2",
 		"@types/node": "^25.9.4",
@@ -31,7 +32,7 @@
 		"astro": "astro",
 		"build": "astro build",
 		"cf-typegen": "wrangler types",
-		"check": "astro build && tsc && wrangler deploy --dry-run",
+		"check": "astro check && astro build && tsc && wrangler deploy --dry-run",
 		"deploy": "wrangler deploy",
 		"dev": "astro dev",
 		"format": "biome format . --write --files-ignore-unknown=true",

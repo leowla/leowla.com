@@ -13,7 +13,7 @@ A minimal one-page personal website (leowla.com) built with Astro and Tailwind C
 | `npm run dev` | Astro dev server at `localhost:4321` |
 | `npm run build` | Build static output to `./dist/` |
 | `npm run preview` | Build, then run `wrangler dev` against the Workers entrypoint |
-| `npm run check` | Full pre-flight: `astro build && tsc && wrangler deploy --dry-run` |
+| `npm run check` | Full pre-flight: `astro check && astro build && tsc && wrangler deploy --dry-run` |
 | `npm run deploy` | `wrangler deploy` (assumes `dist/` is already built — use `npm run build && npm run deploy`) |
 | `npm run cf-typegen` | Regenerate `worker-configuration.d.ts` from `wrangler.json` |
 | `npm run format` / `npm run lint` | Biome format/lint with autofix (`:check` variants are non-mutating) |
