@@ -2,17 +2,17 @@
 	"name": "leowla-astro-site",
 	"description": "Minimal one-page personal website with Astro on Cloudflare Workers.",
 	"dependencies": {
-		"@astrojs/cloudflare": "^13.7.0",
-		"astro": "^6.4.8",
-		"typescript": "^5.9.3"
+		"@astrojs/cloudflare": "^14.3.3",
+		"astro": "^7.3.5",
+		"typescript": "^6.0.3"
 	},
 	"devDependencies": {
 		"@astrojs/check": "^0.9.10",
-		"@biomejs/biome": "^2.5.7",
+		"@biomejs/biome": "^2.5.15",
 		"@tailwindcss/vite": "^4.3.3",
-		"@types/node": "^25.9.5",
+		"@types/node": "^26.6.3",
 		"tailwindcss": "^4.3.3",
-		"wrangler": "^4.119.0"
+		"wrangler": "^4.145.0"
 	},
 	"engines": {
 		"node": ">=22"
@@ -31,5 +31,10 @@
 		"lint:check": "biome lint . --files-ignore-unknown=true",
 		"preview": "astro build && wrangler dev"
 	},
-	"type": "module"
+	"type": "module",
+	"allowScripts": {
+		"esbuild": true,
+		"fsevents": true,
+		"workerd": true
+	}
 }
